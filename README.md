@@ -16,7 +16,7 @@ pip3 install keras
 4)  install ImageAI library                         
 pip3 install imageai --upgrade           
 
-Now that we’ve installed the tools you need, we’ll be using a trained YOLOv3 computer vision model to perform the detection and recognition tasks. we used the pre trained YOLO model. the file name is YOLO.h5 in our repository. This model is trained to detect and recognize 80 different objects, named below:
+Now that we’ve installed the tools you need, we’ll be using a trained YOLOv3 computer vision model to perform the detection and recognition tasks. we used the pre trained YOLO model. the train Yolo model file is placed at my google drive link  https://drive.google.com/file/d/1K9_INogob2BYJ7RovJDBQH3Ma5OZh1pp/view?usp=sharing. so download that YOLO.h5 Model file from the given link and placed that file in same folder where python file and video file placed.  This model is trained to detect and recognize 80 different objects, named below:
 
 classes {person, bicycle, car, motorcycle, airplane, bus, train, truck, boat, traffic light, fire hydrant, stop_sign, parking meter, bench, bird, cat, dog, horse, sheep, cow, elephant, bear, zebra,giraffe, backpack, umbrella, handbag, tie, suitcase, frisbee, skis, snowboard,sports ball, kite, baseball bat, baseball glove, skateboard, surfboard, tennis racket, bottle, wine glass, cup, fork, knife, spoon, bowl, banana, apple, sandwich, orange, broccoli, carrot, hot dog, pizza, donot, cake, chair, couch, potted plant, bed,dining table, toilet, tv, laptop, mouse, remote, keyboard, cell phone, microwave,oven, toaster, sink, refrigerator, book, clock, vase, scissors, teddy bear, hair dryer,toothbrush.}
 
